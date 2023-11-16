@@ -1,0 +1,5 @@
+Main: #22577A
+
+primary: #37B3E6
+
+secondary: #87C342

@@ -1,0 +1,195 @@
+[
+    {
+      "title": "Cox's Bazar Tour",
+      "description": "This 4-day tour will take you to the world's longest beachfront, Cox's Bazar. You'll also visit the Himchari Hills, Inani Beach, and St. Martin's Island.",
+      "price": 500,
+      "duration": 4,
+      "images": [
+        "https://i.ibb.co/86tw1V4/md-zahid-hasan-joy-Hfcyr-Ss-A51-E-unsplash.jpg",
+        "https://i.ibb.co/VMfQNmd/shomitro-kumar-ghosh-f-Urr-Q4y-ENI-unsplash.jpg",
+        "https://i.ibb.co/120z107/s-m-ibrahim-1-NEJki-TTu-LU-unsplash.jpg"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Arrive in Cox's Bazar and check into your hotel.",
+            "Relax on the beach and enjoy the sunset."
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Visit the Himchari Hills and enjoy the panoramic views of the beach.",
+            "Go for a swim in the Inani Beach."
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Take a boat trip to St. Martin's Island, a beautiful island with white sand beaches and crystal-clear waters.",
+            "Go snorkeling or diving and explore the underwater world."
+          ]
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Relax on the beach and enjoy your last day in Cox's Bazar.",
+            "Depart from Cox's Bazar."
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "author": "John Doe",
+          "rating": 5,
+          "comment": "This was an amazing tour! Cox's Bazar is a beautiful place and the itinerary was perfect. We saw so much and had a lot of fun."
+        },
+        {
+          "author": "Jane Doe",
+          "rating": 4,
+          "comment": "Overall, this was a good tour. The guide was knowledgeable and the itinerary was interesting. However, I felt that the accommodations could have been better."
+        }
+      ],
+      "location": "Cox's Bazar, Bangladesh"
+    },
+    {
+      "title": "Sundarbans Tour",
+      "description": "This 3-day tour will take you to the Sundarbans, the world's largest mangrove forest. You'll have the chance to see Royal Bengal tigers, crocodiles, and other wildlife.",
+      "price": 400,
+      "duration": 3,
+      "images": [
+        "https://i.ibb.co/k56k3Kw/arpon-me-Hlv1f7-XYBO4-unsplash.jpg",
+        "https://i.ibb.co/Tv27krG/maitheli-maitra-n-Z2c-Eh8-Qzcg-unsplash.jpg",
+        "https://i.ibb.co/txh2G1W/mamun-srizon-qay3l-NDSHzc-unsplash.jpg"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Arrive in the Sundarbans and check into your hotel.",
+            "Take a boat trip into the forest and see the wildlife.",
+            "Visit a local village and learn about the culture of the people who live in the Sundarbans."
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Go for a morning boat trip and see the sunrise over the forest.",
+            "Visit a crocodile breeding center and learn about the conservation of crocodiles.",
+            "Take a walk through the forest and see the different types of mangroves."
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Go for a final boat trip and see the wildlife.",
+            "Depart from the Sundarbans."
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "author": "David Smith",
+          "rating": 5,
+          "comment": "This was an incredible tour! I saw so many amazing animals, including Royal Bengal tigers. The guide was very knowledgeable and the itinerary was well-organized."
+        },
+        {
+          "author": "Mary Smith",
+          "rating": 4.5,
+          "comment": "This was a great tour, but it was a bit more challenging than I expected. The accommodations were basic, but the food was good and the guide was excellent."
+        }
+      ],
+      "location": "Sundarbans, Bangladesh"
+    },
+    {
+      "title": "Dhaka Tour",
+      "description": "This 2-day tour will take you to Dhaka, the capital of Bangladesh. You'll visit the Lalbagh Fort, Ahsan Manzil Museum, and other historical sites.",
+      "price": 300,
+      "duration": 2,
+      "images": [
+        "https://i.ibb.co/2vT4g5q/abdullah-al-imran-2rx-RDvwd-Tjw-unsplash.jpg",
+        "https://i.ibb.co/0cxN6TG/arafat-2i4-Dd-Ve5uj0-unsplash.jpg",
+        "https://i.ibb.co/1K6TjBD/romel-frost-3nn-Wl-DQf-Wb-M-unsplash.jpg"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Arrive in Dhaka and check into your hotel.",
+            "Visit the Lalbagh Fort and explore its historical significance.",
+            "Explore Ahsan Manzil Museum."
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Visit the National Museum of Bangladesh.",
+            "Explore the Jatiyo Sangsad Bhaban (National Parliament House).",
+            "Depart from Dhaka."
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Alice Johnson",
+          "rating": 4.5,
+          "comment": "Dhaka has a rich history, and this tour covered many important landmarks. The guide was informative, and I enjoyed the cultural experience."
+        },
+        {
+          "author": "Bob Harris",
+          "rating": 4,
+          "comment": "Good tour overall. The historical sites were interesting, but Dhaka is a bustling city, and traffic can be challenging."
+        }
+      ],
+      "location": "Dhaka, Bangladesh"
+    },
+    {
+      "title": "Sylhet Adventure",
+      "description": "Explore the picturesque landscapes and cultural richness of Sylhet with this 3-day adventure. Visit tea gardens, waterfalls, and historical sites.",
+      "price": 450,
+      "duration": 3,
+      "images": [
+        "https://i.ibb.co/whpL9RY/simanta-saha-QMOWBMNN92g-unsplash.jpg",
+        "https://i.ibb.co/PMV1Vq1/ebadur-rehman-kaium-o-Rsxtzx-Vms-Y-unsplash.jpg",
+        "https://i.ibb.co/ckrm8t5/ebadur-rehman-kaium-Sq-C8-M0e-Yx-EY-unsplash.jpg"
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Arrive in Sylhet and check into your hotel.",
+            "Visit Ratargul Swamp Forest, the only swamp forest in Bangladesh."
+          ]
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Explore Lalakhal, known for its crystal-clear blue water.",
+            "Visit Hazrat Shah Jalal University of Science and Technology.",
+            "Experience the vibrant Sylhet city nightlife."
+          ]
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Visit the Srimangal tea gardens and experience tea tasting.",
+            "Depart from Sylhet."
+          ]
+        }
+      ],
+      "reviews": [
+        {
+          "author": "Ella Davis",
+          "rating": 4.5,
+          "comment": "Sylhet is a beautiful region with lush greenery. The tea gardens and Lalakhal were the highlights of this tour."
+        },
+        {
+          "author": "Samuel Turner",
+          "rating": 5,
+          "comment": "A great tour! The guide provided interesting insights into the culture of Sylhet, and the itinerary covered a good mix of nature and history."
+        }
+      ]
+    }
+  ]
+  

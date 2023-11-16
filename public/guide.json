@@ -1,0 +1,73 @@
+[
+    {
+      "name": "Sara Rahman",
+      "location": "Dhaka, Bangladesh",
+      "specialty": "Historical Sites",
+      "image": "https://i.ibb.co/tBHNhf6/download.jpg",
+      "description": "Explore the rich history of Dhaka with Sara. She is passionate about historical sites and can provide fascinating insights into the cultural heritage of Bangladesh."
+    },
+    {
+      "name": "Rahim Ali",
+      "location": "Chittagong, Bangladesh",
+      "specialty": "Adventure Tourism",
+      "image": "https://i.ibb.co/h14W1HX/images-1.jpg",
+      "description": "For an adventurous journey, join Rahim in Chittagong. From trekking to water sports, he knows the best spots for thrill-seekers."
+    },
+    {
+      "name": "Tahmina Akhtar",
+      "location": "Sylhet, Bangladesh",
+      "specialty": "Nature and Tea Gardens",
+      "image": "https://i.ibb.co/4WjFTFx/tour-guide-at-the-scottish-parliament-in-edinburgh-HN2-P7-P.jpg",
+      "description": "Discover the natural beauty of Sylhet with Tahmina. She will take you to enchanting tea gardens and scenic spots for a refreshing experience."
+    },
+    {
+      "name": "Karim Khan",
+      "location": "Cox's Bazar, Bangladesh",
+      "specialty": "Beach Tours",
+      "image": "https://i.ibb.co/PFdBkFw/rock-staar-e9e-Yn-KJJqng-unsplash-1.jpg",
+      "description": "Experience the pristine beaches of Cox's Bazar with Karim. He knows the best spots to relax, swim, and enjoy the coastal beauty."
+    },
+    {
+      "name": "Aisha Begum",
+      "location": "Sundarbans, Bangladesh",
+      "specialty": "Wildlife Tours",
+      "image": "https://i.ibb.co/jwRpTMp/download-1.jpg",
+      "description": "Embark on a wildlife adventure in the Sundarbans with Aisha. She will help you spot the Royal Bengal tiger, crocodiles, and other amazing creatures."
+    },
+    {
+      "name": "Jamal Hossain",
+      "location": "Bandarban, Bangladesh",
+      "specialty": "Hill Tribe Culture",
+      "image": "https://i.ibb.co/WcV3HYy/david-clode-On9-Od3-G73-KQ-unsplash.jpg",
+      "description": "Immerse yourself in the rich culture of the Bandarban hill tribes with Jamal. He will take you to traditional villages, introduce you to local customs, and help you understand their way of life."
+    },
+    {
+      "name": "Fatima Akter",
+      "location": "Rangamati, Bangladesh",
+      "specialty": "Lake Tours",
+      "image": "https://i.ibb.co/4WjFTFx/tour-guide-at-the-scottish-parliament-in-edinburgh-HN2-P7-P.jpg",
+      "description": "Explore the serene lakes of Rangamati with Fatima. She will take you on boat rides, show you hidden coves, and help you discover the natural wonders of the region."
+    },
+    {
+      "name": "Sohel Ahmed",
+      "location": "Comilla, Bangladesh",
+      "specialty": "Heritage Tours",
+      "image": "https://i.ibb.co/rQk3JvC/images-3.jpg",
+      "description": "Discover the rich heritage of Comilla with Sohel. He will take you to ancient temples, mosques, and other historical sites, and share stories of the region's past."
+    },
+    {
+      "name": "Khaleda Begum",
+      "location": "Rajshahi, Bangladesh",
+      "specialty": "Religious Tours",
+      "image": "https://i.ibb.co/bLCnXYC/priscilla-du-preez-w-Wv-8-Q5-Pzi-Y-unsplash.jpg",
+      "description": "Visit the holy sites of Rajshahi with Khaleda. She will take you to renowned temples, mosques, and other religious places, and help you experience the spiritual essence of the region."
+    },
+    {
+      "name": "Aminul Islam",
+      "location": "Jessore, Bangladesh",
+      "specialty": "Food Tours",
+      "image": "https://i.ibb.co/hZfdgj6/Nigerias-Tour-Guide-Training-Programs-An-In-Depth-Look.jpg",
+      "description": "Savour the delicious cuisine of Jessore with Aminul. He will take you to local eateries, introduce you to traditional dishes, and help you appreciate the unique culinary culture of the region."
+    }
+  ]
+  
