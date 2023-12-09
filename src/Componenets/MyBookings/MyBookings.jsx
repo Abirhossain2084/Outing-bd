@@ -74,6 +74,7 @@ const handleDelete = (id) => {
               <th>User Name</th>
               <th>Do Review</th>
               <th>Delete Booking</th>
+              <th>PAY</th>
             </tr>
           </thead>
           <tbody>

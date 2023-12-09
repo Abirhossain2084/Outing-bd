@@ -4,10 +4,32 @@ import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2'; // Import SweetAlert library
 // import GuideBookingRow from './GuideBookingRow';
 const BookingRow = ({ booking, handleDelete, handleBookingConfirm, handleDateUpdate }) => {
-    const { _id, name,uname, email, photo, date, duration, status } = booking;
+    const { _id, name,uname, email, price,photo, date, duration, status } = booking;
 
     console.log(booking);
   
+    const handlePay =()=>{
+
+        const paymentDetails={
+            name,
+            uname,
+            email,
+            date,
+            duration,
+            price,
+            _id
+        }
+
+      
+        console.log(paymentDetails);
+
+        fetch ("http://localhost:5000/order",{
+            method:'POST',
+            headers:{"content-type":"application/json"},
+            body:JSON.stringify(paymentDetails)
+        })
+
+    }
 
     return (
 
@@ -45,6 +67,15 @@ const BookingRow = ({ booking, handleDelete, handleBookingConfirm, handleDateUpd
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
                     </svg>
+                </button>
+            </th>
+
+            <th>
+                <button 
+                
+                onClick={handlePay}
+                className="btn btn-warning bg-green-500">
+                   PAY
                 </button>
             </th>
 
