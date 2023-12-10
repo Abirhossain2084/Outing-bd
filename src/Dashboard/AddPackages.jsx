@@ -13,7 +13,7 @@ const AddPackages = () => {
 
         const newPackage = { title, location, price, duration, description, images }
 
-        fetch('https://outingbd-server.vercel.app/packages', {
+        fetch('http://localhost:5000/packages', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

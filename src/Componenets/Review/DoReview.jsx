@@ -39,7 +39,7 @@ const DoReview = () => {
     };
 
     try {
-      const response = await fetch('https://outingbd-server.vercel.app/reviews', {
+      const response = await fetch('http://localhost:5000/reviews', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

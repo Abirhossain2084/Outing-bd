@@ -29,7 +29,7 @@ const PackageDetails = () => {
       console.log('pack det', packageDetails);
 
       // Send a POST request to your server to add the product to the cart
-      const response = await fetch('https://outingbd-server.vercel.app/bookings', {
+      const response = await fetch('http://localhost:5000/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

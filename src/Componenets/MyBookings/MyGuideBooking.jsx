@@ -11,7 +11,7 @@ const MyGuideBooking = () => {
 
 
   console.log(bookings);
-  const url = `https://outingbd-server.vercel.app/guidebookings?email=${user.email}`;
+  const url = `http://localhost:5000/guidebookings?email=${user.email}`;
 
   // Fetch user's bookings and update the state
   useEffect(() => {
@@ -38,7 +38,7 @@ const handleDelete = (id) => {
     confirmButtonText: 'Yes, delete it!',
   }).then((result) => {
     if (result.isConfirmed) {
-      fetch(`https://outingbd-server.vercel.app/guidebookings/${id}`, {
+      fetch(`http://localhost:5000/guidebookings/${id}`, {
         method: 'DELETE',
       })
         .then((res) => res.json())

@@ -23,7 +23,7 @@ const BookingRow = ({ booking, handleDelete, handleBookingConfirm, handleDateUpd
 
         console.log(paymentDetails);
 
-        fetch("https://outingbd-server.vercel.app/order", {
+        fetch("http://localhost:5000/order", {
             method: 'POST',
             headers: { "content-type": "application/json" },
             body: JSON.stringify(paymentDetails)

@@ -56,12 +56,12 @@ const router = createBrowserRouter([
       {
         path:"/packages",
         element:<Packages></Packages>,
-        loader: ()=> fetch('https://outingbd-server.vercel.app/packages')
+        loader: ()=> fetch('http://localhost:5000/packages')
       },
       {
         path:"/packages/:id",
         element:<PackageDetails></PackageDetails>,
-        loader: ({params}) => fetch(`https://outingbd-server.vercel.app/packages/${params.id}`)
+        loader: ({params}) => fetch(`http://localhost:5000/packages/${params.id}`)
       },
       {
         path:"/bookings",
@@ -73,23 +73,23 @@ const router = createBrowserRouter([
       {
         path:"/reviews/:id",
         element:<PrivateRoute><DoReview></DoReview></PrivateRoute>,
-        loader: ({params}) => fetch(`https://outingbd-server.vercel.app/bookings/${params.id}`)
+        loader: ({params}) => fetch(`http://localhost:5000/bookings/${params.id}`)
       },
       {
         path:"/guidereviews/:id",
         element:<PrivateRoute><DoGuideReview></DoGuideReview></PrivateRoute>,
-        loader: ({params}) => fetch(`https://outingbd-server.vercel.app/guidebookings/${params.id}`)
+        loader: ({params}) => fetch(`http://localhost:5000/guidebookings/${params.id}`)
       },
 
       {
         path:"/guides",
         element:<Guides></Guides>,
-        loader: ()=> fetch('https://outingbd-server.vercel.app/guides')
+        loader: ()=> fetch('http://localhost:5000/guides')
       },
       {
         path:"/guides/:id",
         element:<GuideDetails></GuideDetails>,
-        loader: ({params}) => fetch(`https://outingbd-server.vercel.app/guides/${params.id}`)
+        loader: ({params}) => fetch(`http://localhost:5000/guides/${params.id}`)
       },
       {
         path:"/about",
@@ -118,7 +118,7 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <DashboardPackages></DashboardPackages>,
-        loader: () => fetch('https://outingbd-server.vercel.app/packages')
+        loader: () => fetch('http://localhost:5000/packages')
       },
       {
         path: "/dashboard/add_packages",
@@ -127,7 +127,7 @@ const router = createBrowserRouter([
       {
         path: "/dashboard/guides",
         element: <DashboardGuides></DashboardGuides>,
-        loader: () => fetch('https://outingbd-server.vercel.app/guides')
+        loader: () => fetch('http://localhost:5000/guides')
       },
       {
         path: "/dashboard/add_guides",

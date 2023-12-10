@@ -26,7 +26,7 @@ const GuideDetails = () => {
       console.log('guidessss', guideDetails);
 
       // Send a POST request to your server to add the product to the cart
-      const response = await fetch('https://outingbd-server.vercel.app/guidebookings', {
+      const response = await fetch('http://localhost:5000/guidebookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

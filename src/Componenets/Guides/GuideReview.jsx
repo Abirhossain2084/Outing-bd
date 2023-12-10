@@ -8,7 +8,7 @@ const GuideReview = () => {
     console.log(reviews);
 
     useEffect(() => {
-        fetch('https://outingbd-server.vercel.app/guidereviews')
+        fetch('http://localhost:5000/guidereviews')
             .then((res) => res.json())
             .then((data) => {
                 setReviews(data);
