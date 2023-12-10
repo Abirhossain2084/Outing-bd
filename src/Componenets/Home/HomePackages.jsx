@@ -7,7 +7,7 @@ const HomePackages = () => {
   console.log(cards);
 
   useEffect(() => {
-    fetch("http://localhost:5000/packages")
+    fetch("https://outingbd-server.vercel.app/packages")
       .then((response) => response.json())
       .then((json) => setCards(json));
   }, []);

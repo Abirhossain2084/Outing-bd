@@ -9,7 +9,7 @@ const DashboardGuides = () => {
     console.log(guides);
     const handleDelete = _id => {
         console.log(_id)
-        fetch(`http://localhost:5000/guides/${_id}`, {
+        fetch(`https://outingbd-server.vercel.app/guides/${_id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

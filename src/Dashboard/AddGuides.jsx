@@ -12,7 +12,7 @@ const AddGuides = () => {
         const newGuide = { name, location, specialty, image, description }
         console.log(newGuide)
 
-        fetch('http://localhost:5000/guides', {
+        fetch('https://outingbd-server.vercel.app/guides', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
