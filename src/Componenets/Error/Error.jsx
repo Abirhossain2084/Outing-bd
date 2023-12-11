@@ -16,6 +16,7 @@ const Error = () => {
     };
 
     return (
+        // error page
         <div style={containerStyle}>
             <h1 className="text-6xl text-black mb-40 font-bold"> Page Not Found</h1>
 
