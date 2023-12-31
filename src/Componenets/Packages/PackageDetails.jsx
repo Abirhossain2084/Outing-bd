@@ -1,13 +1,17 @@
-import { useContext, useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import DatePicker from 'react-datepicker';
+import Slider from 'react-slick'; // Import the Slider component from react-slick
 import 'react-datepicker/dist/react-datepicker.css';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import Swal from 'sweetalert2';
 import { AuthContext } from '../../Providers/AuthProvider';
-
 const PackageDetails = () => {
   const packages = useLoaderData();
   console.log(packages);
+  console.log(packages);
+
   const [bookingDate, setBookingDate] = useState(new Date());
   const [bookingDuration, setBookingDuration] = useState(1); // Default duration is 1 day
   const { user } = useContext(AuthContext);
@@ -59,6 +63,17 @@ const PackageDetails = () => {
     }
   };
 
+
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4, 
+    slidesToScroll: 1, 
+  };
+
+ 
   return (
     <div className="my-20">
       <h1 className="text-center  font-bold text-6xl my-10">{packages.name} Details of {packages.title}</h1>
@@ -102,12 +117,30 @@ const PackageDetails = () => {
                 onClick={handleConfirmBooking}
                 className="btn text-white bg-[#164863] hover-bg-[#427D9D]"
               >
-                Confirm Booking
+                Add to Cart
               </button>
             </Link>
           {/* Booking Summary */}
           
         </div>
+      </div>
+
+     {/* Slider Section */}
+     <div className="mt-10">
+        <h2 className="text-3xl font-bold  text-center my-10">Suggested Places & Food</h2>
+        <Slider {...settings}>
+          {packages.details.map((detail, index) => (
+            <div key={index} className="px-4 max-h-96">
+              <div className="card bg-[#DDF2FD] shadow-lg">
+                <img className=" h-52 rounded-t-md" src={detail.specificplaceimages} alt={detail.author} />
+                <div className="p-4">
+                  <h3 className="text-xl font-bold">{detail.author}</h3>
+                  <p className='text-[#2c82bb]'>Suggested Food: {detail.suggestedFood.join(', ')}</p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </Slider>
       </div>
     </div>
   );

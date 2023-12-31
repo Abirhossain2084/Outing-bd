@@ -1,0 +1,142 @@
+[
+    {
+        "title": "Sundarbans Tour",
+        "description": "Embark on a mesmerizing 4-day journey through the Sundarbans, Bangladesh's treasure trove of natural wonders. Immerse yourself in the allure of Cox's Bazar, boasting the world's longest beachfront. Explore the enchanting Himchari Hills, unwind on Inani Beach, and discover the pristine beauty of St. Martin's Island.",
+        "price": 7500,
+        "duration": 4,
+        "images": "https://i.ibb.co/k56k3Kw/arpon-me-Hlv1f7-XYBO4-unsplash.jpg",
+        "location": "Sundarbans, Bangladesh",
+        "details": [
+            {
+                "author": "Sundarban National Park",
+                "specificplaceimages": "https://i.ibb.co/0jg2Qwz/mamun-srizon-v6-A4n-Xxqk-Fo-unsplash.jpg",
+                "suggestedFood": ["Seafood Curry", "Fish Bharta", "Panta Bhat", "Chingri Bhorta"]
+            },
+            {
+                "author": "Kotka Beach",
+                "specificplaceimages": "https://i.ibb.co/C9c5HD4/unkknown-traveller-l2-g-RPhph60-unsplash.jpg",
+                "suggestedFood": ["Shorshe Ilish", "Chitol Muitha", "Bhapa Pitha", "Bhorta"]
+            },
+            {
+                "author": "Karamjol",
+                "specificplaceimages": "https://i.ibb.co/pWTxFjK/johirul-islam-sujon-Oz-Rn-Xy-Cnclg-unsplash.jpg",
+                "suggestedFood": ["Panta Ilish", "Bhapa Chingri", "Shutki Bhorta", "Bengali Sweets"]
+            },
+            {
+                "author": "Himchari Hills",
+                "specificplaceimages": "https://i.ibb.co/8dj7ZM6/rabindra-banerjee-l-Yq-GGv-T7-SDU-unsplash.jpg",
+                "suggestedFood": ["Hilltop Picnic", "Local Snacks", "Grilled Delights", "Fresh Fruit Juices"]
+            },
+            {
+                "author": "St. Martin's Island",
+                "specificplaceimages": "https://i.ibb.co/5RJXdS1/rabindra-banerjee-9j-Lw-B9-Y-AJyc-unsplash.jpg",
+                "suggestedFood": ["Beachside BBQ", "Tropical Cocktails", "Fresh Seafood Platter", "Coconut Treats"]
+            }
+        ]
+    },
+    {
+        "title": "Cox's Bazar Tour",
+        "description": "Embark on a 4-day coastal odyssey in Cox's Bazar, Bangladesh. Revel in the splendor of the world's longest beachfront and explore the breathtaking landscapes of Himchari Hills, Inani Beach, and St. Martin's Island.",
+        "price": 550,
+        "duration": 4,
+        "images": "https://i.ibb.co/86tw1V4/md-zahid-hasan-joy-Hfcyr-Ss-A51-E-unsplash.jpg",
+        "location": "Cox's Bazar, Bangladesh",
+        "details": [
+            {
+                "author": "Sain-Martin Sea Beach",
+                "specificplaceimages": "https://i.ibb.co/M7d6nbZ/frank-mckenna-OD9-EOzf-SOh0-unsplash.jpg",
+                "suggestedFood": ["Prawn Curry", "Fish Fry", "Fuska", "Chingri Malaikari"]
+            },
+            {
+                "author": "Inani Beach",
+                "specificplaceimages": "https://i.ibb.co/23vTSBb/fareed-akhyear-chowdhury-x-Rl-ZUxp-Mp-Y4-unsplash.jpg",
+                "suggestedFood": ["Bamboo Chicken", "Khichuri", "Fried Crab", "Jhalmuri"]
+            },
+            {
+                "author": "Sugondha Beach",
+                "specificplaceimages": "https://i.ibb.co/pWTxFjK/johirul-islam-sujon-Oz-Rn-Xy-Cnclg-unsplash.jpg",
+                "suggestedFood": ["Chingri Bhorta", "Cheese Naan", "Grilled Lobster", "Pineapple Raita"]
+            },
+            {
+                "author": "Himchari Hills",
+                "specificplaceimages": "https://i.ibb.co/8dj7ZM6/rabindra-banerjee-l-Yq-GGv-T7-SDU-unsplash.jpg",
+                "suggestedFood": ["Hilltop Picnic", "Local Snacks", "Grilled Delights", "Fresh Fruit Juices"]
+            },
+            {
+                "author": "Nijhum Dwip",
+                "specificplaceimages": "https://i.ibb.co/FD3QxrH/souvik-banerjee-G-i-Zh-Wf-Ly-JM-unsplash.jpg",
+                "suggestedFood": ["Crab Delicacies", "Local Sweets", "Island Grill", "Tropical Fruit Platter"]
+            }
+        ]
+    },
+    {
+        "title": "Dhaka Tour",
+        "description": "Embark on a cultural escapade through the heart of Bangladesh with a 4-day Dhaka tour. Discover the vibrant cityscape, visit iconic landmarks like Shadar Ghat, Lalbag-kella, and Ahsan Monjil, and indulge in the delectable street food that defines Dhaka's culinary identity.",
+        "price": 550,
+        "duration": 4,
+        "images": "https://i.ibb.co/86tw1V4/md-zahid-hasan-joy-Hfcyr-Ss-A51-E-unsplash.jpg",
+        "location": "Dhaka, Bangladesh",
+        "details": [
+            {
+                "author": "Shadar Ghat",
+                "specificplaceimages": "https://i.ibb.co/CV4zWpK/simon-reza-c-Cli-MJy-Hu-FQ-unsplash-1.jpg",
+                "suggestedFood": ["Biryani", "Panta Bhat", "Kacchi", "Bhorta"]
+            },
+            {
+                "author": "Lalbag-kella",
+                "specificplaceimages": "https://i.ibb.co/2vT4g5q/abdullah-al-imran-2rx-RDvwd-Tjw-unsplash.jpg",
+                "suggestedFood": ["Fuchka", "Bhapa Ilish", "Beguni", "Bhapa Chingri"]
+            },
+            {
+                "author": "Ahsan Monjil",
+                "specificplaceimages": "https://i.ibb.co/0cxN6TG/arafat-2i4-Dd-Ve5uj0-unsplash.jpg",
+                "suggestedFood": ["Dhaka Street Food 1", "Dhaka Street Food 2", "Dhaka Street Food 3", "Dhaka Street Food 4"]
+            },
+            {
+                "author": "Dhanmondi Lake",
+                "specificplaceimages": "https://i.ibb.co/C5T9C6j/aaron-burden-uf-FIweq-SPd4-unsplash.jpg",
+                "suggestedFood": ["Lakeside Dining", "Street Snacks", "Local Refreshments", "International Cuisine"]
+            },
+            {
+                "author": "Jatiyo Sangsad Bhaban",
+                "specificplaceimages": "https://i.ibb.co/tsGWbGW/mahmudul-hasan-roni-e-n-TLPREr-YA-unsplash.jpg",
+                "suggestedFood": ["Parliamentary Dining", "Cafeteria Treats", "Panoramic Views", "Cultural Fusion"]
+            }
+        ]
+    },
+    {
+        "title": "Sylhet Tour",
+        "description": "Embark on a 4-day exploration of Sylhet, Bangladesh, known for its picturesque landscapes and rich cultural heritage. Delight in the flavors of Panta Ilish, Chitol Maacher Muitha, Sorshe Ilish, and Bhorta against the backdrop of Sain-Martin Sea Beach, Inani Beach, and Sugondha Beach.",
+        "price": 550,
+        "duration": 4,
+        "images": "https://i.ibb.co/86tw1V4/md-zahid-hasan-joy-Hfcyr-Ss-A51-E-unsplash.jpg",
+        "location": "Sylhet, Bangladesh",
+        "details": [
+            {
+                "author": "Sadaoathor",
+                "specificplaceimages": "https://i.ibb.co/Cv4dMKP/tajul-islam-i-PRWLGh-Jngw-unsplash.jpg",
+                "suggestedFood": ["Panta Ilish", "Chitol Maacher Muitha", "Sorshe Ilish", "Bhorta"]
+            },
+            {
+                "author": "Shahjalal Majar",
+                "specificplaceimages": "https://i.ibb.co/WcNRPxg/jakaria-hussain-adnan-S832z9a-Wyds-unsplash.jpg",
+                "suggestedFood": ["Bamboo Chicken", "Panta Bhat", "Fried Fish", "Shorshe Chingri"]
+            },
+            {
+                "author": "Lakkatura Tea Garden",
+                "specificplaceimages": "https://i.ibb.co/JR6hF8g/sazzad-bin-jafor-Tpbag2-IJBMo-unsplash.jpg",
+                "suggestedFood": ["Grilled Lobster", "Prawn Curry", "Kacchi Biryani", "Chitol Muitha"]
+            },
+            {
+                "author": "Ratargul Swamp Forest",
+                "specificplaceimages": "https://i.ibb.co/w7Zn2vS/tanjir-ahmed-chowdhury-Ke-SIJbmc-1k-unsplash.jpg",
+                "suggestedFood": ["Forest Picnic", "Wilderness Dining", "Local Forest Produce", "Nature's Bounty"]
+            },
+            {
+                "author": "Jaflong",
+                "specificplaceimages": "https://i.ibb.co/CWT3hys/md-sameul-9-Uqze-QYk-Cgg-unsplash.jpg",
+                "suggestedFood": ["Riverside Feast", "Tea Garden Eats", "Cultural Tea Rituals", "Mountain View Cuisine"]
+            }
+        ]
+    }
+]

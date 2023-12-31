@@ -17,6 +17,7 @@ const GuideDetails = () => {
         guname: user.displayName,
         email: user.email,
         gname: guide.name,
+        gprice: guide.price,
         glocation:guide.location,
         gspeciality: guide.specialty,
         gphoto: guide.image,

@@ -7,10 +7,10 @@ import GuideBookingRow from "./GuideBookingRow";
 
 const MyGuideBooking = () => {
   const { user } = useContext(AuthContext);
-  const [bookings, setBookings] = useState([]);
+  const [gbookings, setBookings] = useState([]);
 
 
-  console.log(bookings);
+  console.log(gbookings);
   const url = `http://localhost:5000/guidebookings?email=${user.email}`;
 
   // Fetch user's bookings and update the state
@@ -45,7 +45,7 @@ const handleDelete = (id) => {
         .then((data) => {
           if (data.deletedCount > 0) {
             Swal.fire('Deleted!', 'Your booking has been deleted.', 'success');
-            const remainingBookings = bookings.filter((booking) => booking._id !== id);
+            const remainingBookings = gbookings.filter((booking) => booking._id !== id);
             setBookings(remainingBookings); // Update the user's booking list
           }
         });
@@ -63,7 +63,7 @@ const handleDelete = (id) => {
     {/* guide */}
 
    <div>
-      <h2 className="text-5xl text-center my-20 font-bold text-[#164863]">My guides: {bookings.length}</h2>
+      <h2 className="text-5xl text-center my-20 font-bold text-[#164863]">guides: {gbookings.length}</h2>
       <div className="overflow-x-auto w-full">
         <table className="table w-full">
           {/* head */}
@@ -76,13 +76,15 @@ const handleDelete = (id) => {
               <th>Location</th>
               <th>Do Review</th>
               <th>Delete Guide</th>
+              <th>PAY</th>
+         
             </tr>
           </thead>
           <tbody>
             {
-              bookings.map(booking => <GuideBookingRow
+              gbookings.map(booking => <GuideBookingRow
                 key={booking._id}
-                booking={booking}
+                gbooking={booking}
                 handleDelete={handleDelete}
               // handleBookingConfirm={handleBookingConfirm}
               ></GuideBookingRow>)
@@ -91,6 +93,8 @@ const handleDelete = (id) => {
 
         </table>
       </div>
+
+      
     </div>
 
     </div>

@@ -1,7 +1,36 @@
-import React from "react";
+import { useRef } from "react";
+import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
+
 // import bgImage from "./path/to/background-image.jpg";
 
 const ContactUs = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_m7ddppc', 'template_0gbr8me', form.current, 'qPZX1bjYVv3Cfre6u')
+      .then((result) => {
+          console.log(result.text );
+
+          Swal.fire({
+            icon: 'success',
+            title: 'Email Sent!',
+            text: 'Your email has been sent successfully!',
+          });
+          form.current.reset();
+      }, (error) => {
+          console.log(error.text);
+          Swal.fire({
+            icon: 'Error',
+            title: 'Something went Wrong!',
+            text: 'Your email has been not Sent!',
+          });
+      });
+  };
+
   return (
     <div
     style={{ backgroundImage: `url(${'https://i.ibb.co/txh2G1W/mamun-srizon-qay3l-NDSHzc-unsplash.jpg'})`, backgroundSize: "cover", backgroundPosition: "center",opacity:0.9 }}
@@ -29,7 +58,10 @@ const ContactUs = () => {
       {/* Contact Form */}
       <div className="bg-transparent border-2 rounded-lg p-8">
         <h2 className="text-4xl text-primary-color font-bold mb-4 text-[#37B3E6]">Contact Us</h2>
-        <form className="text-white">
+        <form 
+        ref={form}
+       onSubmit={sendEmail}
+        className="text-white">
         <div className="mb-4 flex">
           <div className="w-1/2 pr-2">
             <label htmlFor="name" className="block font-medium">

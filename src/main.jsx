@@ -32,6 +32,7 @@ import DashboardGuides from './Dashboard/DashboardGuides';
 import AddGuides from './Dashboard/AddGuides';
 import PackagePayment from './Componenets/Paymnets/packagePayment';
 import PackagePaymentCancel from './Componenets/Paymnets/packagePaymentCancel';
+import Payments from './Dashboard/Payments';
 
 
 
@@ -132,7 +133,12 @@ const router = createBrowserRouter([
       {
         path: "/dashboard/add_guides",
         element: <AddGuides></AddGuides>,
-      }
+      },
+      {
+        path: "/dashboard/payments",
+        element: <Payments></Payments>,
+        loader: () => fetch('http://localhost:5000/payment')
+      },
     ]
   }
 ]);

@@ -26,6 +26,9 @@ const MyBookings = () => {
 
 
 
+ 
+
+
 
 // Function to cancel a booking
 const handleDelete = (id) => {
@@ -61,8 +64,10 @@ const handleDelete = (id) => {
     <div className="container mx-auto" >
 
       <div>
-      <h2 className="text-5xl text-center my-20 font-bold text-[#164863]">My Packages: {bookings.length}</h2>
+      <h2 className="text-5xl text-center my-20 font-bold text-[#164863]"> Packages: {bookings.length}</h2>
       <div className="overflow-x-auto w-full">
+
+        
         <table className="table w-full">
           {/* head */}
           <thead>
@@ -90,6 +95,8 @@ const handleDelete = (id) => {
 
         </table>
       </div>
+
+      
     </div>
 
 

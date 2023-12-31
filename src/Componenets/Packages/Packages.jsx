@@ -1,7 +1,8 @@
-import  { useState } from "react";
+import  { useEffect, useState } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import PackageBanner from "./PackageBanner";
 import HomeReview from "../Home/HomeReview";
+import { data } from "autoprefixer";
 
 
 const Packages = () => {
@@ -15,6 +16,17 @@ const Packages = () => {
     const price = pack.price;
     return price >= priceRange.min && price <= priceRange.max;
   };
+
+  const [packagesss, setPackagesss] = useState([]);
+
+  useEffect(() => {
+    fetch('packagedetails.json')
+      .then(response => response.json())
+      .then(data => setPackagesss(data))
+      .catch(error => console.error('Error fetching data:', error));
+  }, []);
+
+  console.log(packagesss);
 
   return (
 

@@ -64,7 +64,7 @@ const HomeGuides = () => {
 
     return (
         <section className="guides-section my-32 p-4">
-       <div className="mb-20">
+       <div className="mb-20 ">
                 <h2 className="text-[#37B3E6] font-semibold text-center text-6xl">Our Expreienced Guides</h2>
                 <h2 className="text-center mt-4 text-lg text-[#22577A]">Best in the business</h2>
             </div>
@@ -73,7 +73,7 @@ const HomeGuides = () => {
             {guides.map((guide) => (
                 <div
                     key={guide.id}
-                    className="h-full card card-side glass bg-black shadow-xl p-4 rounded-lg relative"
+                    className="h-full card card-side glass bg-[#b7defd] shadow-xl p-4 rounded-lg gap-4 relative"
                 >
                     <figure>
                         <img
@@ -82,8 +82,8 @@ const HomeGuides = () => {
                             alt="guide"
                         />
                     </figure>
-                    <div className="card-body mt-4 text-white">
-                        <h2 className="card-title text-white">{guide.name}</h2>
+                    <div className="card-body mt-4 text-black">
+                        <h2 className="card-title text-black">{guide.name}</h2>
                         <p>{guide.location}</p>
                         <p>{guide.specialty}</p>
                         {showDescription && <p>{guide.description}</p>}

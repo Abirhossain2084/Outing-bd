@@ -1,12 +1,66 @@
 
 
+import { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../Providers/AuthProvider';
 
 // import GuideBookingRow from './GuideBookingRow';
 const BookingRow = ({ booking, handleDelete, handleBookingConfirm, handleDateUpdate }) => {
-    const { _id, name, uname, email, price, photo, date, duration, status } = booking;
+    const { user } = useContext(AuthContext);
+    const { _id, name, uname, email,  photo, date, duration, status } = booking;
 
-    console.log(booking);
+    // console.log(booking);
+
+
+
+
+    const [gbookings, setgBookings] = useState([]);
+
+
+    // console.log('guides', gbookings);
+    const gurl = `http://localhost:5000/guidebookings?email=${user.email}`;
+
+    // Fetch user's bookings and update the state
+    useEffect(() => {
+        fetch(gurl)
+            .then((res) => res.json())
+            .then((data) => setgBookings(data))
+            .catch((error) => console.error("Error fetching bookings:", error));
+    }, []);
+
+ // Calculate the sum of "gprice" property
+const sumOfGPrices = gbookings.reduce((total, booking) => total + parseFloat(booking.gprice), 0);
+
+// console.log('Sum of gprice:', sumOfGPrices);
+
+
+
+// bookings data
+const [bookings, setBookings] = useState([]);
+
+
+// console.log("bookings",bookings);
+const url = `http://localhost:5000/bookings?email=${user.email}`;
+
+// Fetch user's bookings and update the state
+useEffect(() => {
+  fetch(url)
+    .then((res) => res.json())
+    .then((data) => setBookings(data))
+    .catch((error) => console.error("Error fetching bookings:", error));
+}, []);
+
+ // Calculate the sum of "gprice" property
+ const sumOfPrices = bookings.reduce((total, booking) => total + parseFloat(booking.price), 0);
+
+//  console.log('Sum of price:', sumOfPrices);
+ 
+
+
+const price = sumOfPrices+sumOfGPrices;
+
+
+// console.log(price);
 
     const handlePay = () => {
 
@@ -17,6 +71,7 @@ const BookingRow = ({ booking, handleDelete, handleBookingConfirm, handleDateUpd
             date,
             duration,
             price,
+            photo,
             _id
         }
 
@@ -87,6 +142,8 @@ const BookingRow = ({ booking, handleDelete, handleBookingConfirm, handleDateUpd
                     PAY
                 </button>
             </th>
+
+
 
 
         </tr>
